@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/description_title"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/text_margin"
+        android:paddingEnd="@dimen/text_margin"
+        android:text="@string/common_description"
+        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/text_margin"
+        android:paddingEnd="@dimen/text_margin"
+        style="@style/Base.TextAppearance.AppCompat.Body1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:id="@+id/comments_title"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/text_margin"
+        android:paddingEnd="@dimen/text_margin"
+        android:text="@string/common_comments"
+        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+
+</LinearLayout>
